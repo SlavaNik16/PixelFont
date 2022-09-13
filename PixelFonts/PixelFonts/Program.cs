@@ -9,7 +9,7 @@ namespace PixelFonts
     {
         static void Main(string[] args)
         {
-            Console.SetWindowSize(240, 60);
+            //Console.SetWindowSize(240, 60);
             Console.Write("Введите число от 0 до 9 со знаками разделителями(Пробел, точкой, запятой): ");
             var number = Console.ReadLine();
             int[] nums = new int[20];
